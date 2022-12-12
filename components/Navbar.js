@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <nav>
             <div className="logo">
-                <Image src='/undraw.svg' width={128} height={77}/>
+                <Image src='/undraw.svg' alt="Logo" width={128} height={77}/>
             </div>
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
